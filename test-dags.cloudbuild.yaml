@@ -3,7 +3,7 @@ steps:
   - name: python:3.8-slim
     entrypoint: pip
     args: ["install", "-r", "requirements.txt", "--user"]
-  
+
   - name: python:3.8-slim
     entrypoint: pip
     args: ["install", "-r", "requirements-test.txt", "--user"]
